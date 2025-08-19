@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Web icon">
+  <g fill="none" stroke="#5a67d8" stroke-width="2">
+    <circle cx="32" cy="32" r="20"/>
+    <path d="M12 24h40M12 40h40M32 12c6 6 10 14 10 20s-4 14-10 20M32 12c-6 6-10 14-10 20s4 14 10 20"/>
+  </g>
+</svg>
+
