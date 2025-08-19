@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         alert('Please complete all required fields.');
         return;
       }
-      var mailto = 'mailto:hello@softhubtechnologies.com'
+      var mailto = 'mailto:info@softhubtechno.com'
         + '?subject=' + encodeURIComponent('Website inquiry from ' + name)
         + '&body=' + encodeURIComponent(message + '\n\nFrom: ' + name + ' <' + email + '>');
       window.location.href = mailto;
