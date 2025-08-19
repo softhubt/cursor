@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About — Softhub Technologies</title>
+    <title>Contact — Softhub Technologies</title>
     <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
@@ -21,11 +21,11 @@
         </button>
         <nav id="site-nav" class="site-nav">
           <ul>
-            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="pricing.html">Pricing</a></li>
             <li><a href="careers.html">Careers</a></li>
-            <li><a href="contact.html" class="btn btn-sm btn-primary">Contact</a></li>
+            <li><a href="contact.html" class="btn btn-sm btn-primary" aria-current="page">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -33,22 +33,31 @@
     <main>
       <section class="page-hero">
         <div class="container">
-          <h1>About us</h1>
-          <p>We are a product-led software consultancy helping teams deliver outcomes.</p>
+          <h1>Contact us</h1>
+          <p>Tell us about your goals. We’ll get back within one business day.</p>
         </div>
       </section>
       <section class="content">
-        <div class="container prose">
-          <h2>Our mission</h2>
-          <p>Enable organizations to build reliable, lovable software quickly and sustainably.</p>
-          <h2>How we work</h2>
-          <ul>
-            <li>Small, senior teams embedded with your org</li>
-            <li>Evidence-driven, iterative delivery</li>
-            <li>Design, engineering, and DevOps working as one</li>
-          </ul>
-          <h2>Leadership</h2>
-          <p>Our leads have shipped products at startups and Fortune 500s, across web, mobile, and cloud.</p>
+        <div class="container">
+          <form id="contact-form">
+            <div class="form-row">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required />
+              </div>
+            </div>
+            <div>
+              <label for="message">How can we help?</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-help">Submitting opens your email client to send us a message directly.</div>
+            <button class="btn btn-primary" type="submit">Send</button>
+            <div id="contact-success" class="form-success" aria-live="polite"></div>
+          </form>
         </div>
       </section>
     </main>
