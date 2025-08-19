@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contact — Softhub Technologies</title>
+    <title>Portfolio — Softhub Technologies</title>
     <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
@@ -24,10 +24,10 @@
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="products.html">Products</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
             <li><a href="pricing.html">Pricing</a></li>
             <li><a href="careers.html">Careers</a></li>
-            <li><a href="contact.html" class="btn btn-sm btn-primary" aria-current="page">Contact</a></li>
+            <li><a href="contact.html" class="btn btn-sm btn-primary">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -35,43 +35,29 @@
     <main>
       <section class="page-hero">
         <div class="container">
-          <h1>Contact us</h1>
-          <p>India (Pune) and Switzerland offices. We typically respond within 1 business day.</p>
+          <h1>Portfolio</h1>
+          <p>Recent work across web, software, and mobile.</p>
         </div>
       </section>
       <section class="content">
         <div class="container">
-          <div class="prose" style="margin-bottom:18px">
-            <h2>Reach us</h2>
-            <p>
-              Office 14, 5th Floor, Bhosale Shinde Arcade, JM Road, Deccan, Pune 411004, India<br/>
-              Phone: +91 85518 99099 / +91 86982 99099<br/>
-              Email: <a href="mailto:info@softhubtechno.com">info@softhubtechno.com</a>
-            </p>
-            <p>
-              Wallisellen Strasse 489, 8050 Zurich, Switzerland<br/>
-              Phone: +41 77 965 98 13
-            </p>
+          <div class="grid grid-3">
+            <div class="card">
+              <img src="assets/img/devices.svg" alt="Project: E‑commerce" />
+              <h3>E‑commerce Platform</h3>
+              <p>Full‑stack marketplace with payments and analytics.</p>
+            </div>
+            <div class="card">
+              <img src="assets/img/devices.svg" alt="Project: Real Estate" />
+              <h3>Real Estate Portal</h3>
+              <p>Listings, search, and CRM integration for brokers.</p>
+            </div>
+            <div class="card">
+              <img src="assets/img/devices.svg" alt="Project: Food Ordering" />
+              <h3>Food Ordering App</h3>
+              <p>Android/iOS app with location and delivery tracking.</p>
+            </div>
           </div>
-          <form id="contact-form">
-            <div class="form-row">
-              <div>
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text" required />
-              </div>
-              <div>
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" required />
-              </div>
-            </div>
-            <div>
-              <label for="message">How can we help?</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
-            <div class="form-help">Submitting opens your email client to send us a message directly.</div>
-            <button class="btn btn-primary" type="submit">Send</button>
-            <div id="contact-success" class="form-success" aria-live="polite"></div>
-          </form>
         </div>
       </section>
     </main>
