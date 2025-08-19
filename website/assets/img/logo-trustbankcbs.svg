@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="48" viewBox="0 0 160 48" role="img" aria-label="TrustBankCBS logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#5a67d8"/>
+      <stop offset="1" stop-color="#434190"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="48" rx="10" fill="#eef2ff"/>
+  <g fill="url(#g)" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="16">
+    <text x="16" y="30">TrustBankCBS</text>
+  </g>
+</svg>
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact — Softhub Technologies</title>
+    <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/img/logo.svg" alt="Softhub Technologies" width="32" height="32" />
+          <span>Softhub Technologies</span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html" class="btn btn-sm btn-primary" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1>Contact us</h1>
+          <p>India (Pune) and Switzerland offices. We typically respond within 1 business day.</p>
+        </div>
+      </section>
+      <section class="content">
+        <div class="container">
+          <div class="prose" style="margin-bottom:18px">
+            <h2>Reach us</h2>
+            <p>
+              Office 14, 5th Floor, Bhosale Shinde Arcade, JM Road, Deccan, Pune 411004, India<br/>
+              Phone: +91 85518 99099 / +91 86982 99099<br/>
+              Email: <a href="mailto:info@softhubtechno.com">info@softhubtechno.com</a>
+            </p>
+            <p>
+              Wallisellen Strasse 489, 8050 Zurich, Switzerland<br/>
+              Phone: +41 77 965 98 13
+            </p>
+          </div>
+          <form id="contact-form">
+            <div class="form-row">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required />
+              </div>
+            </div>
+            <div>
+              <label for="message">How can we help?</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-help">Submitting opens your email client to send us a message directly.</div>
+            <button class="btn btn-primary" type="submit">Send</button>
+            <div id="contact-success" class="form-success" aria-live="polite"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="assets/img/logo.svg" alt="Softhub Technologies" width="28" height="28" />
+          <span>Softhub Technologies</span>
+        </div>
+        <nav class="footer-nav">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="products.html">Products</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="careers.html">Careers</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="footer-meta">
+          <span id="year"></span> • All rights reserved
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+  </html>
+
